@@ -15,5 +15,4 @@ fig, ax = plt.subplots()
 ax.bar(x, y, width=1, edgecolor="white", linewidth=0.7)
 
 
-
 plt.show()
