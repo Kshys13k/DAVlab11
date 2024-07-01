@@ -20,5 +20,5 @@ plt.grid(axis="y", alpha=0.5)
 # Display only every other label
 plt.xticks(ticks=range(0, len(x), 5), labels=x[::5])
 
-plt.show()
-# plt.savefig("../plots/survival_age_plot.png")
+# plt.show()
+plt.savefig("../plots/survival_age_plot.png")
